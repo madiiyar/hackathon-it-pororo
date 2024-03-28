@@ -4,7 +4,7 @@
 
 .img {
   height: 200px;
-  background-image: url(1eee4b6cfa4e52a5e1995b30736a964d.png);
+  background-image: url(/img/1eee4b6cfa4e52a5e1995b30736a964d.png);
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
@@ -41,7 +41,7 @@ body {
 }
 
 .left {
-  background-image: url(65726346941167f7be57dcdd71b77045.png);
+  background-image: url(/img/65726346941167f7be57dcdd71b77045.png);
   background-repeat: no-repeat;
   max-width: 100%;
   background-size: cover;
@@ -61,7 +61,7 @@ body {
 }
 
 .image1 {
-  background-image: url(3f5dd99a65c9f4546bb21c07f247587d.png);
+  background-image: url(/img/3f5dd99a65c9f4546bb21c07f247587d.png);
   background-repeat: no-repeat;
   max-width: 100%;
   background-size: cover;
@@ -73,7 +73,7 @@ body {
 }
 
 .image2 {
-  background-image: url(330ad53980abfc8e361c9064c7ce33d4.png);
+  background-image: url(/img/330ad53980abfc8e361c9064c7ce33d4.png);
   background-repeat: no-repeat;
   max-width: 100%;
   background-size: cover;
@@ -99,7 +99,7 @@ table {
 }
 
 .other {
-  background-image: url(9951b01521201a6cdc3a04c69b5d5a67.png);
+  background-image: url(/img/9951b01521201a6cdc3a04c69b5d5a67.png);
   width: 25%;
   height: 200px;
   background-color: black;
