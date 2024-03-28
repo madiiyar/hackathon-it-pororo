@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-image: url("https://www.xtrafondos.com/en/descargar.php?id=3931&resolucion=1920x1080");
+  background-image: black;
+
+  /* background-image: url("https://wallpapercrafter.com/desktop/41895-Lake-Louise-4K-4k-wallpaper-Canada-National-Park-Banff-glacial-lake-vacation-holiday-travel-mountain-forest-beach-sky.jpg"); */
+
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: #222;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+
+  padding: 40px 70px;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  position: sticky;
+}
+
+#navbar {
+  display: flex;
+  list-style: none;
+}
+
+#navbar li {
+  padding-left: 35px;
+}
+
+#navbar li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  color: white;
+  font-size: 20px;
+}
+
+#navbar li a:hover {
+  color: aqua;
+}
+
+#bar {
+  display: none;
+  font-size: 25px;
+}
+
+#close {
+  display: none;
+}
+
+#select {
+  border: none;
+  font-size: 20px;
+}
+
+#select {
+  border-radius: none;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+}
+
+#select option {
+  color: black;
+  font-size: 20px;
+}
+
+#search {
+  color: white;
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.image {
+  height: 300px;
+  width: 400px;
+  padding: 20px 20px;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+}
+
+p,
+h2 {
+  max-width: 400px;
+  padding: 0px 20px;
+  color: rgb(0, 0, 0);
+}
+
+button {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(10, 7, 31);
+  border: none;
+  color: blue;
+}
+
+h3 {
+  max-width: 400px;
+  padding: 0px 20px;
+  color: rgb(159, 156, 156);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.container .container2:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+}
+
+/* .container:hover > .container2:not(:hover) {
+  filter: blur(3px);
+  transform: scale(0.9, 0.9);
+}
+
+.more {
+  text-align: center;
+  padding: 10px 25px;
+  background-color: aqua;
+  color: black;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+  box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 25px #03e9f4,
+    0 0 100px #03e9f4;
+} */
+
+.footer {
+  /* background-color: white; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 150px;
+  background-color: green;
+  padding: 85px;
+}
+
+h4,
+p {
+  color: black;
+  font-size: 17px;
+}
+.follow i {
+  font-size: 30px;
+}
+
+.more {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+}
+
+@media (max-width: 700px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    gap: 20px;
+    height: 100vh;
+    width: 300px;
+    background-color: azure;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+    transition: 0.3s;
+  }
+
+  #bar {
+    display: inline;
+  }
+
+  #navbar.active {
+    right: 0px;
+  }
+
+  #close {
+    display: flex;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+
+  #search {
+    padding: 0 25px;
+    font-size: 25px;
+  }
+
+  #select {
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+  }
+}

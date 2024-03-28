@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+h1 {
+	font-size: 50px;
+	line-height: 64px;
+	color: #222;
+}
+
+.section-p1 {
+	padding: 40px 80px;
+}
+
+.section-m1 {
+	margin: 40px 0;
+}
+
+#header {
+	display: flex;
+	align-items: center;
+	background-color: white;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+	padding: 20px 70px;
+	justify-content: space-between;
+	top: 0;
+	left: 0;
+	position: sticky;
+}
+
+#navbar {
+	display: flex;
+	list-style: none;
+}
+
+#navbar li {
+	padding-left: 35px;
+}
+
+#navbar li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+	color:green;
+}
+
+#navbar li a:hover {
+	color: aqua;
+}
+
+#bar {
+	display: none;
+	font-size: 25px;
+}
+
+#close {
+	display: none;
+}
+
+#select {
+	border: none;
+	font-size: 15px;
+}
+
+.img {
+	background-image: url(https://www.creativefabrica.com/wp-content/uploads/2022/05/17/pastel-aesthetic-background-Graphics-30684243-1.jpg);
+	width: 100%;
+	height: 90vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.img h1 {
+	color: black;
+	font-size: 60px;
+}
+
+#event {
+	text-align: center;
+}
+
+.event-cont {
+	display: flex;
+	text-align: start;
+	justify-content: space-around;
+	align-items: center;
+	margin: 100px 0;
+}
+
+.event-cont img {
+	height: 300px;
+}
+
+.event-cont p {
+	padding: 15px 0;
+}
+
+.event-cont span {
+	color: green;
+}
+
+.event-details button {
+	width: 150px;
+	height: 50px;
+	background-color: green;
+	color: white;
+	border-radius: 15px;
+	border: none;
+}
+
+@media (max-width: 700px) {
+	#navbar {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+		position: fixed;
+		top: 0;
+		right: -300px;
+		gap: 20px;
+		height: 100vh;
+		width: 300px;
+		background-color: azure;
+		box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+		padding: 80px 0 0 10px;
+		transition: 0.3s;
+	}
+
+	#bar {
+		display: inline;
+	}
+
+	#navbar.active {
+		right: 0px;
+	}
+
+	#close {
+		display: flex;
+		top: 0;
+		left: 0;
+		position: absolute;
+	}
+
+	#search {
+		padding: 0 25px;
+		font-size: 25px;
+	}
+
+	#select {
+		width: 40px;
+		height: 40px;
+		border: none;
+		font-size: 20px;
+	}
+
+}
